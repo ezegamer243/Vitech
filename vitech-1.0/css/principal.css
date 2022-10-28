@@ -1,0 +1,442 @@
+:root {
+    --colorPrincipal:#000000;
+    --colorSecundario: #F2F2F2;
+    --colorTerciario: #638CA6;
+    --colorResaltado: #5B83A6;
+    --colorFuerte: #3D9DF2;
+    --latoprincipal:'Lato', sans-serif;
+    --poppinssecundaria:'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: var(--latoprincipal);
+}
+html {
+    margin: 0;
+    width: 100vw;
+}
+
+body {
+    color: white;
+    height: 100vh;
+}
+
+/* comienzo index.php */
+
+form svg {
+    width: 20px;
+    padding-top: 0px;
+}
+
+
+
+.form-body {
+    background-image: url("../imagenes/fondologin.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.form-login {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);   
+}
+
+.form-body h2 {
+    font-family: var(--latoprincipal);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input {
+    display: block;
+    text-align: center; 
+
+}
+
+.input i {
+    color: white;
+    font-size: 20px;
+}
+
+.form-login input {
+    color: #0B2447;
+    padding: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    width: 65%;
+    background-color: white;
+    outline:none;
+}
+
+.form-body a{
+    display: block;
+    margin: auto;  
+    text-align: center;
+    margin-top:-20px;
+    margin-bottom: 20px;; 
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: var(--poppinssecundaria);
+    
+}
+
+.form-login input[type="submit"] {
+    cursor: pointer;
+    margin: 0;
+    display: block;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(11, 36, 71);
+}
+
+.form-login input[type="submit"]:hover {
+    background-color: white;
+    color: #0B2447;
+
+}
+
+.logologin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .logologin img{
+    width: 120px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+ }
+
+ /* fin index.php */
+
+ /* comienzo principal.php*/
+
+header svg {
+    fill: white;
+    width: 30px;
+
+}
+
+.headerprincipal {
+    display: flex;
+    background-color: var(--colorPrincipal);
+    width: 100vw;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerprincipal img {
+    width: 45px;
+}
+
+.headerprincipal input {
+    border: 1px solid white;
+    background-color: var(--colorSecundario);
+    width: 30vw;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.mainprincipal {
+    background-color: var(--colorSecundario);
+    width: 100vw;
+    height: 100vh;
+    float: left;
+
+}
+
+.mainprincipal iframe {
+    width: 100%;
+    height: 75vh;
+}
+
+.aside {
+    width: 0vw;
+    height: 100vh;
+    background-color: var(--colorTerciario);
+    z-index: 100;
+    float: right;
+
+}
+
+.iconos {
+    background-color: var(--colorTerciario);
+}
+
+.linkiconos {
+    color: white;
+    text-decoration: none;
+}
+
+.panel i{
+    display: block;
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+.panel a{
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.panel a:hover{
+    background-color: var(--colorResaltado);
+}
+
+.panelcontenido{ 
+    width: 80%;
+    float: left;
+    display: inline;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenido {
+    padding: 5px;
+    border:1px solid white;
+
+
+}
+
+.section1 {
+    padding: 5px;
+    margin-left: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #5A87C7;
+
+}
+
+.section2 {
+    padding: 5px;
+    margin-left: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #5A87C7;
+
+}
+
+.section2 button {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 0.7vw;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+}
+
+.section3 {
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    background-color: #5A87C7;
+
+}
+
+.contenido button {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 80px;
+}
+
+
+
+.pendientes {
+    border: 2px solid #5A87C7;
+    background-color: #5A87C7;
+
+}
+
+.historial {
+    border: 2px solid #5A87C7;
+    background-color: #5A87C7;
+
+}
+
+.aside h3 {
+    color: black;
+    padding-left: 10px;
+    height: 10%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.pendientes h3 {
+    color: black;
+    padding-left: 10px;
+    height: 10%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.historial h3 {
+    color: black;
+    padding-left: 10px;
+    height: 10%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+/* Contenido general */
+
+section:nth-child(1) {
+    background-color: var(--colorSecundario);
+    float: left;
+    justify-content: space-around;
+    width: 25%;
+    height: 100vh;
+    border: 1px solid var(--colorTerciario);
+}
+
+section:nth-child(1) form {
+    font-size: var(--poppinssecundaria);
+    color: var(--colorResaltado);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    row-gap: 15px;
+    column-gap: 5px;
+    margin: 5px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+section:nth-child(1) input {
+    display: block;
+    background-color: #DEDEDE;
+    border: none;
+    width: 160px;
+    border-bottom: 1px solid var(--colorResaltado);
+    padding: 2px;
+}
+
+section:nth-child(1) label {
+    display: block;
+}
+
+section:nth-child(1) select {
+    display: block;
+    background-color: #DEDEDE;
+    border: none;
+    width: 160px;
+    border-bottom: 1px solid var(--colorResaltado);
+    padding: 2px;
+}
+
+section:nth-child(1) input[type="submit"] {
+    color: white;
+    cursor: pointer;
+    width: 60%;
+    background-color: var(--colorTerciario);
+    grid-column: 1/3;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+section:nth-child(1) input[type="submit"]:hover {
+    background-color: var(--colorResaltado);
+}
+
+section:nth-child(2) {
+    font-family: var(--poppinssecundaria);
+    background-image: url(../imagenes/fondologin.jpg);
+    background-size: cover;
+    color: var(--colorResaltado);
+    display: block;
+    float: right;
+    width: 75%;
+    height: 100vh;
+    border: 1px solid var(--colorTerciario);
+}
+
+section:nth-child(2) tr {
+    font-family: var(--poppinssecundaria);
+    font-size: 15px;
+}
+
+/* Tablas */
+
+.tabla {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: rgba(99, 140, 166, 0.5);
+}
+
+.tabla th {
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 4px solid var(--colorSecundario);
+}
+
+.tabla tr:hover {
+    background-color: var(--colorFuerte);
+}
+
+tr:nth-child(even) {
+    background: var(--colorSecundario);
+    color: var(--colorTerciario);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--colorTerciario);
+}
+
+tr:nth-child(even) td{ 
+    color: var(--colorTerciario);
+}
+
+tr:nth-child(even):hover td{
+    color: white;
+}
+
+.tabla td {
+    padding: 2px;
+    color: white;
+}
+
+.tabla i {
+    color: white;
+}
+
+/* Fin contenido general */
+
+
+/* fin principal.php */
