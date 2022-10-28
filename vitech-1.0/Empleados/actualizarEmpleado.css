@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*svg {
+    margin: 10px;
+    height: 5rem;
+}*/
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+body {
+    color: white;
+    background-color: #0B2447;
+}
+
+.insertar {
+    display: flex;
+    align-items: center;
+    width: 88vw;
+    height: 4vw;
+    background-color: #5A87C7;
+    border-radius: 20px;
+    margin: auto;
+    padding: 6px;
+}
+.enviar {
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    margin-right: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 95%;
+    width: 35%;
+    border-radius: 5px solid;
+}
+
+.regresar{
+    color: white;
+    background-color: #0B2447;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 1px;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 95%;
+    width: 35%;
+    border-radius: 5px solid;
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    height: 90%;
+    width: 65%;
+    background-color: #0B2447;
+    border: 1px solid #0B2447;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.label{
+    display: inline-block;
+    height: 30px;
+    width: 88vw;
+    background-color: #0B2447;
+    border: 1px solid #5A87C7;
+    border-radius: 10px; 
+    margin-left: 6%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#codigo{  
+    padding-left: 5.5vw;
+    padding-top: 5px;
+    font-size: 1.3rem
+}
+
+#nombre{
+    padding-left: 8.5vw;
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+#apellido{
+    padding-left: 7.9vw;
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+#mail{
+    padding-left: 8.8vw;
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+#cargo{
+    padding-left: 9.8vw;
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+.borrar{
+    color: red;
+}
+.editar {
+    color: white;
+
+}
